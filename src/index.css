@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Merriweather:wght@400;700;900&family=Roboto:wght@300;400;500;700;900&display=swap");
+.ff_fira {
+  font-family: "Fira code", "sans";
+}
+body {
+  background-color: #282c33 !important;
+}
+
+.text_stroke {
+  -webkit-text-stroke-width: 0.2px;
+}
+::-webkit-scrollbar {
+  display: none !important;
+}
+
+.custom-cursor {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  background-color: violet; /* Customize the background color as needed */
+  border-radius: 50%;
+  pointer-events: none; /* Ensure the cursor doesn't interfere with clickable elements */
+  mix-blend-mode: difference; /* Optional: Adjust blend mode for better visibility */
+  z-index: 9999; /* Make sure it's above other elements */
+  transform: translate(-50%, -50%);
+  transition: transform 2.3s linear;
+}
