@@ -22,7 +22,7 @@ const About = () => {
               Hello, i’m Sumit Chouhan!
             </p>
             <p className="ff_fira text-[#ABB2BF] leading-[162%] py-3 lg:py-5">
-              I’m a self-taught front-end developer based in Haryana, India. I
+              I’m a self-taught full stack developer based in Haryana, India. I
               can develop responsive websites from scratch and raise them into
               modern user-friendly web experiences.
             </p>
@@ -44,7 +44,11 @@ const About = () => {
           </div>
           <div className="md:w-5/12 lg:w-5/12">
             <div className="relative">
-              <img className="xl:pb-20 lg:pb-10" src={about_img} alt="man img" />
+              <img
+                className="xl:pb-20 lg:pb-10"
+                src={about_img}
+                alt="man img"
+              />
               <img
                 className="absolute sm:h-[60px] h-[50px] w-[50px] sm:w-[60px] lg:h-[84px] lg:w-[84px] top-[15%]"
                 src={big_dots}

@@ -98,9 +98,6 @@ const Skills = () => {
                         HTML CSS
                       </p>
                       <p className="text-base ff_fira text-[#ABB2BF] group-hover:text-white">
-                        SCSS
-                      </p>
-                      <p className="text-base ff_fira text-[#ABB2BF] group-hover:text-white">
                         Vite
                       </p>
                     </div>
